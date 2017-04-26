@@ -900,9 +900,9 @@ Removing Unused input sections from the image.
     Removing stm32l4xx_hal_pwr.o(i.HAL_PWR_EnterSTANDBYMode), (36 bytes).
     Removing stm32l4xx_hal_pwr.o(i.HAL_PWR_EnterSTOPMode), (100 bytes).
     Removing stm32l4xx_hal_pwr.o(i.HAL_PWR_PVDCallback), (2 bytes).
-    Removing module.o(i.foo), (2 bytes).
+    Removing module.o(i.foo), (6 bytes).
 
-379 unused section(s) (total 34204 bytes) removed from the image.
+379 unused section(s) (total 34208 bytes) removed from the image.
 
 ==============================================================================
 

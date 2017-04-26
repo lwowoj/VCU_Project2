@@ -1,6 +1,8 @@
 #ifndef __MODULE_H_
 #define __MODULE_H_
 
-void foo(void);
+#include "stdint.h"
+
+void foo(uint8_t *pBuffer);
 
 #endif
