@@ -900,8 +900,9 @@ Removing Unused input sections from the image.
     Removing stm32l4xx_hal_pwr.o(i.HAL_PWR_EnterSTANDBYMode), (36 bytes).
     Removing stm32l4xx_hal_pwr.o(i.HAL_PWR_EnterSTOPMode), (100 bytes).
     Removing stm32l4xx_hal_pwr.o(i.HAL_PWR_PVDCallback), (2 bytes).
+    Removing module.o(i.foo), (2 bytes).
 
-378 unused section(s) (total 34202 bytes) removed from the image.
+379 unused section(s) (total 34204 bytes) removed from the image.
 
 ==============================================================================
 
@@ -1252,17 +1253,17 @@ Memory Map of the image
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x0000018c   Data   RO          139    RESET               startup_stm32l433xx.o
-    0x0800018c   0x00000000   Code   RO         2748  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x0800018c   0x00000004   Code   RO         2751    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x08000190   0x00000004   Code   RO         2754    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x08000194   0x00000000   Code   RO         2756    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x08000194   0x00000000   Code   RO         2758    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x08000194   0x00000008   Code   RO         2759    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x0800019c   0x00000000   Code   RO         2761    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x0800019c   0x00000000   Code   RO         2763    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x0800019c   0x00000004   Code   RO         2752    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x0800018c   0x00000000   Code   RO         2754  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x0800018c   0x00000004   Code   RO         2757    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x08000190   0x00000004   Code   RO         2760    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000194   0x00000000   Code   RO         2762    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000194   0x00000000   Code   RO         2764    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x08000194   0x00000008   Code   RO         2765    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x0800019c   0x00000000   Code   RO         2767    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x0800019c   0x00000000   Code   RO         2769    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x0800019c   0x00000004   Code   RO         2758    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x080001a0   0x00000024   Code   RO          140    .text               startup_stm32l433xx.o
-    0x080001c4   0x00000024   Code   RO         2765    .text               mc_w.l(init.o)
+    0x080001c4   0x00000024   Code   RO         2771    .text               mc_w.l(init.o)
     0x080001e8   0x00000002   Code   RO          235    i.BusFault_Handler  stm32l4xx_it.o
     0x080001ea   0x00000002   Code   RO          236    i.DebugMon_Handler  stm32l4xx_it.o
     0x080001ec   0x00000002   Code   RO          386    i.Error_Handler     main.o
@@ -1329,13 +1330,13 @@ Memory Map of the image
     0x080024da   0x00000002   PAD
     0x080024dc   0x00000044   Code   RO            5    i.SystemInit        system_stm32l4xx.o
     0x08002520   0x00000002   Code   RO          244    i.UsageFault_Handler  stm32l4xx_it.o
-    0x08002522   0x0000000e   Code   RO         2769    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x08002530   0x00000002   Code   RO         2770    i.__scatterload_null  mc_w.l(handlers.o)
-    0x08002532   0x0000000e   Code   RO         2771    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x08002522   0x0000000e   Code   RO         2775    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x08002530   0x00000002   Code   RO         2776    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08002532   0x0000000e   Code   RO         2777    i.__scatterload_zeroinit  mc_w.l(handlers.o)
     0x08002540   0x00000002   Code   RO          388    i.assert_failed     main.o
     0x08002542   0x0000001a   Code   RO          389    i.main              main.o
     0x0800255c   0x00000040   Data   RO            6    .constdata          system_stm32l4xx.o
-    0x0800259c   0x00000020   Data   RO         2767    Region$$Table       anon$$obj.o
+    0x0800259c   0x00000020   Data   RO         2773    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00000480, Max: 0x0000c000, ABSOLUTE)
