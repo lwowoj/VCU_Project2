@@ -537,6 +537,21 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>Module</GroupName>
+          <Files>
+            <File>
+              <FileName>module.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\module.c</FilePath>
+            </File>
+            <File>
+              <FileName>module.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Inc\module.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
