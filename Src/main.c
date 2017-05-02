@@ -85,7 +85,7 @@ int main(void)
   MX_RNG_Init();
 
   /* USER CODE BEGIN 2 */
-  dummyVariable[0] = 1;
+  dummyVariable[0] = 123;
 
   /* USER CODE END 2 */
 
